@@ -1,0 +1,30 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бравл Старс Квіз</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Бравл Старс Квіз</h1>
+        <p class="quiz-description">Відповідайте на питання і дізнайтеся, скільки ви знаєте про Бравл Старс!</p>
+
+        <div id="quiz">
+            <div class="question-container">
+                <p id="question-text"></p>
+                <div id="answers">
+                    <!-- Відповіді з'являться тут -->
+                </div>
+            </div>
+            <button id="next-btn" onclick="nextQuestion()">Далі</button>
+            <div id="result" style="display:none;">
+                <h2>Результат:</h2>
+                <p id="score"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
