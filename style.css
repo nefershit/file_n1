@@ -3,7 +3,7 @@ body {
 
   text-align: center;
   padding: 20px;
-  color : black;
+  color : purple;
 }
 
 .quiz-container {
@@ -41,7 +41,7 @@ button:hover {
 #answers button {
   display: block;
   margin: 10px auto;
-  background-color: #f4f4f4;
+  background-color: blue;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
